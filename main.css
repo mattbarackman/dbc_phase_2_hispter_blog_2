@@ -9,11 +9,36 @@ body {
 
 header {
   padding: 10px;
+  background-color: black;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header li {
+  display: inline;
+  margin-right: 5%; 
+}
+
+header li a:hover {
+  color: #ff0;
+}
+
+header ul {
+  padding: 0;
+}
+
+nav {
+  float: right;
+  width: 250px;
 }
 
 .brand {
   font-family: "Lato", Verdana, sans-serif;
   font-size: 3em;
+  font-weight: 300;
 }
 
 .brand a:hover {
@@ -28,4 +53,29 @@ header {
 .marketing {
   padding: 10px;
   margin: 1em 0;
+  background-color: #333;
+  color: white;
+}
+
+.features div {
+  width: 30%;
+  display: inline-block;
+  margin: 0;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+}
+
+.features div:nth-child(2) {
+  border-left: solid #555 1px;
+  border-right: solid #555 1px;
+}
+
+.features h3 {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
